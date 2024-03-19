@@ -24,16 +24,7 @@
             }
 
             return m;
-            int ma = numbers[0];
-            for (int i = 1; i < numbers.Length; i++)
-            {
-                if (numbers[i] > ma)
-                {
-                    ma = numbers[i];
-                }
-            }
-
-            return ma;
+            
         }
         public static void Main(string[] args)
         {
