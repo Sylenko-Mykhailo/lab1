@@ -14,16 +14,16 @@
         }
         public static int FindMax(int[] numbers)
         {
-            int max = numbers[0];
+            int m = numbers[0];
             for (int i = 1; i < numbers.Length; i++)
             {
-                if (numbers[i] > max)
+                if (numbers[i] > m)
                 {
-                    max = numbers[i];
+                    m = numbers[i];
                 }
             }
 
-            return max;
+            return m;
         }
         public static void Main(string[] args)
         {
